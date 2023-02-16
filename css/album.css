@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: rgb(17, 17, 17);
+}
+
+.card {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border: 0;
+}
+
+.track-name {
+    color: white;
+}
+
+.track-songer {
+    color: rgb(158, 158, 158);
+}
+
+.track-time {
+    color: white;
+}
+
+.track {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.track:hover {
+    outline: 4px solid rgb(177, 0, 0);
+    z-index: 1;
+}
+
+small {
+    color: rgb(156, 156, 156);
+}
+
+.songs {
+    color: white;
+}
+
+.button {
+    background-color: rgb(17, 17, 17);
+    border: 0;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.socicon {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vk:hover {
+    background-color: #0077ff;
+}
+
+.yt:hover {
+    background-color: #c30000;
+}
+
+.tg:hover {
+    background-color: #0088cc;
+}

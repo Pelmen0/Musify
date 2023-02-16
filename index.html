@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify - главная</title>
+    <link rel="icon" href="favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <header class="p-3 mb-3 border-bottom border-secondary">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="#" class="logo-text d-flex align-items-center me-lg-5 mb-2 mb-lg-0 text-decoration-none">
+              <img src="assets/bigmusicnote_122142.svg" height="64px" alt="">
+              Musify
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#main" class="nav-link px-2 link">Главное</a></li>
+              <li><a href="#" class="nav-link px-2 link">Подкасты</a></li>
+              <li><a href="#" class="nav-link px-2 link">Детям</a></li>
+              <li><a href="#" class="nav-link px-2 link">Коллекция</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 me-lg-auto ms-3 header-form" role="search">
+              <input type="search" class="form-control header-input" placeholder="Поиск..." aria-label="Search">
+            </form>
+            
+            <button class="premium-badge badge rounded-pill bg-secondary me-4">Премиум</button>
+
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-dark text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="48" height="48" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Выйти</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+    <main class="container">
+      <h1 class="mt-5">Чарт</h1>
+      <div class="chart mb-3">Самые прослушиваемые треки недели</div>
+      <div class="row">
+        <div class="col-md-6 p-md-2">
+          <ol class="list-group">
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Instasamka_-_ZA_DENGI_DA_75137048.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">За деньги да</div>
+                  <div class="track-songer">Инстасамка</div>
+              </div>
+              <div class="ms-auto track-time">
+                  1:59
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Eminem_Nate_Dogg_-_Till_I_Collapse_48381358.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">'Till I Collapse</div>
+                  <div class="track-songer">Eminem, Nate Dogg</div>
+              </div>
+              <div class="ms-auto track-time">
+                  4:57
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Eminem_-_The_Real_Slim_Shady_47829433.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">The Real Slim Shady</div>
+                  <div class="track-songer">Eminem</div>
+              </div>
+              <div class="ms-auto track-time">
+                  4:44
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/YUrijj_Loza_-_Plot_48229203.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">Плот</div>
+                  <div class="track-songer">Юрий Лоза</div>
+              </div>
+              <div class="ms-auto track-time">
+                  5:09
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Dzhigan_EGOR_KRID_The_Limba_blago_white_OG_Buda_Timati_-_Na_chile_73067107.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">На чиле</div>
+                  <div class="track-songer">Тимати, Джиган, Егор Крид...</div>
+              </div>
+              <div class="ms-auto track-time">
+                  5:41
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="col-md-6 p-md-2">
+          <ol class="list-group">
+            <li value="6" class="d-flex align-items-center track">
+              <audio class="audio" src="music/Eminem_-_Lose_Yourself_47829428.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">Lose Yourself</div>
+                  <div class="track-songer">Eminem</div>
+              </div>
+              <div class="ms-auto track-time">
+                  5:20
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Dzhigan_Timati_Egor_Krid_-_Rolls_Royce_71363953.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">Rolls Royce</div>
+                  <div class="track-songer">Тимати, Джиган, Егор Крид</div>
+              </div>
+              <div class="ms-auto track-time">
+                  2:23
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Eminem_-_Without_Me_47829431.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">Without Me</div>
+                  <div class="track-songer">Eminem</div>
+              </div>
+              <div class="ms-auto track-time">
+                  4:21
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Egor_Krid_-_Golos_72777587.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">Голос</div>
+                  <div class="track-songer">Егор Крид</div>
+              </div>
+              <div class="ms-auto track-time">
+                  3:04
+              </div>
+            </li>
+            <li class="d-flex align-items-center track">
+              <audio class="audio" src="music/Timati_-_V_Klube_48266963.mp3"></audio>
+              <img src="assets/playbutton.png" height="30px" alt="" class="me-3 img-pause">
+              <img src="assets/pausebutton.png" height="30px" alt="" class="me-3 img-playing d-none">
+              <div>
+                  <div class="track-name">В клубе</div>
+                  <div class="track-songer">Тимати, DJ Dlee</div>
+              </div>
+              <div class="ms-auto track-time">
+                  4:07
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <h2 class="mt-5 mb-3">
+        Популярные плейлисты
+      </h2>
+      <div class="albums row mb-5 row-cols-2 row-cols-md-4 gy-3"></div>
+    </main>
+    <footer class="border-top border-secondary">
+        <div class="footer">
+            <a href="https://vk.com/mr.bulbanumber1" target="_blank"><img class="socicon vk" src="assets/vk.svg" alt="Переход на сайт ВКонтакте"></a>
+            <a href="https://www.youtube.com/watch?v=byYkk8e0ipY" target="_blank"><img class="socicon yt" src="assets/yt.svg" alt="Переход на сайт Ютуб"></a>
+            <a href="https://ru.wikipedia.org/wiki/Блокирование_Telegram_в_России" target="_blank"><img class="socicon tg" src="assets/tg.svg" alt="Переход на сайт Телеграм"></a>
+        </div>
+        <div class="footer-text">Крутая надпись 2023</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
